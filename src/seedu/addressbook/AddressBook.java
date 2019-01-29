@@ -228,6 +228,8 @@ public class AddressBook {
 
     private static void showWelcomeMessage() {
         showToUser(DIVIDER, DIVIDER, VERSION, MESSAGE_WELCOME, DIVIDER);
+        System.out.println("|| Command can be add, find, list, delete, clear, exit and help");
+        // add more later
     }
 
     private static void showResultToUser(String result) {
